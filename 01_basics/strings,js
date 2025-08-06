@@ -1,0 +1,16 @@
+const name="vishal"
+const repocount= 10
+console.log(name+repocount+"value")
+console.log(`hello my name is ${name} and my repo count is ${repocount}`);
+
+const gameName= new String('vishalsh')
+console.log(gameName.__proto__);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('s'));
+
+//methods in js ---.slice, trim, replace , includes, split
+//mdn string types
+const newString= gameName.substring(0,4)
+console.log(newString);
+
